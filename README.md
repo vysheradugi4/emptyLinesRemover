@@ -7,8 +7,9 @@ npm install emptyLinesRemover
 ```
 
 `emptyLinesRemover` can transform javascript streams (work with buffer)
-and if data is strings (utf8) will be remove all empty lines. Support text,
-csv and other formats, created in Linux, Window and Mac systemes.
+and if data is strings (text, csv or other) (utf8) will be remove all empty
+lines or empty lines contains spaces. Support text, csv and other formats,
+created in Linux, Window and Mac systemes.
 
 
 ## Usage
