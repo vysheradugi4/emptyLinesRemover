@@ -28,8 +28,8 @@ of Great Britain
 You can parse it like this:
 
 ``` js
-var EmptyLinesRemover = require('emptyLinesRemover');
-var fs = require('fs');
+const EmptyLinesRemover = require('emptylinesremover');
+const fs = require('fs');
 
 fs.createReadStream('file1.txt')
   .pipe(new EmptyLinesRemover())
