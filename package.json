@@ -1,0 +1,32 @@
+{
+  "name": "emptylinesremover",
+  "version": "1.0.0",
+  "description": "Streaming Empty Lines Remover that aims for high speed of remove as well as compatibility with the all streaming modules in Node.js.",
+  "main": "emptyLinesRemover.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vysheradugi4/emptyLinesRemover.git"
+  },
+  "keywords": [
+    "stream",
+    "transform",
+    "empty",
+    "string",
+    "lines",
+    "remove",
+    "remover",
+    "streaming",
+    "empty",
+    "lines",
+    "remove"
+  ],
+  "author": "vysheradugi4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vysheradugi4/emptyLinesRemover/issues"
+  },
+  "homepage": "https://github.com/vysheradugi4/emptyLinesRemover#readme"
+}
