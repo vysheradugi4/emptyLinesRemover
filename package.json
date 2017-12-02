@@ -1,6 +1,6 @@
 {
   "name": "emptylinesremover",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Streaming Empty Lines Remover that aims for high speed of remove as well as compatibility with the all streaming modules in Node.js.",
   "main": "emptyLinesRemover.js",
   "scripts": {
