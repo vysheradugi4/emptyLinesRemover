@@ -3,9 +3,7 @@
  * @module emptyLinesRemover
  */
 
-const {
-	Transform
-} = require('stream');
+const {	Transform } = require('stream');
 
 /**
  * Class representing a remover empty lines in stream.
@@ -144,6 +142,15 @@ class Remover extends Transform {
 
 		// Only spaces or empty.
 		return true;
+	}
+
+	/**
+	 * This method only for test private method _isEmptyLine.
+	 * @param  {Buffer} buffer Line in buffer.
+	 * @return {Boolean}       True if only spaces, and false if it contains.
+	 */
+	forTestIsEmptyLine(buffer) {
+		return this._isEmptyLine(buffer);
 	}
 }
 
